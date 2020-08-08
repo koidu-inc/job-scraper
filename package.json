@@ -2,7 +2,7 @@
   "name": "@koidu/job-scraper",
   "version": "0.0.1",
   "description": "scrape major job websites and return the data in a common format",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:koidu-inc/job-scraper.git",
   "author": "Daniel R. Hayes <danielhayes5@gmail.com>",
   "license": "MIT",
