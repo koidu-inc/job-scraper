@@ -1,7 +1,13 @@
 version: 2.1
+
 orbs:
-  node: circleci/node@3.0.0
+  node: circleci/node@3.0.1
+
 workflows:
   node-tests:
     jobs:
-      - node/test
+      - node/test:
+          pkg-manager: yarn
+          matrix:
+            parameters:
+              version: ['14.7.0', '12.18.3', '10.22.0']
