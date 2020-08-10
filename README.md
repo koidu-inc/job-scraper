@@ -37,6 +37,8 @@ Job Scraper returns jobs in a `JobPosting` format.
 ### Example
 
 ```javascript
+const { JobScraper } = require('@koidu/job-scraper');
+
 async function getJobs() {
   const jobs = await JobScraper.searchJobs('indeed', {
     searchTerm: 'nodejs developer',
