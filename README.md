@@ -1,5 +1,9 @@
 # Job Scraper
 
+![NPM](https://img.shields.io/npm/l/@koidu/job-scraper)
+![CircleCI](https://img.shields.io/circleci/build/github/koidu-inc/job-scraper/master)
+[![npm (scoped)](https://img.shields.io/npm/v/@koidu/job-scraper)](https://www.npmjs.com/package/@koidu/job-scraper)
+
 Scrape major job websites and return the data in a common format
 
 - NOTE: this package is under active development and subject to change until the API is stable in v1.0.0
