@@ -1,6 +1,6 @@
 {
   "name": "@koidu/job-scraper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "scrape major job websites and return the data in a common format",
   "main": "lib/index.js",
   "repository": "git@github.com:koidu-inc/job-scraper.git",
