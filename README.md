@@ -28,15 +28,15 @@ Job Scraper returns jobs in a `JobPosting` format.
 
 ## `JobPosting`
 
-| key        | type     | description                                            | example                                              |
-| ---------- | -------- | ------------------------------------------------------ | ---------------------------------------------------- |
-| `sourceId` | _string_ | the id from the source job board                       | `indeed:jobPosting:11be61a5bcbb4d00`                 |
-| `company`  | _string_ | the company of the job posting                         | `Google`                                             |
-| `title`    | _string_ | the title or position                                  | `Software Engineer I`                                |
-| `url`      | _string_ | the url for the job posting on the job board site      | `https://www.indeed.com/viewjob?jk=11be61a5bcbb4d00` |
-| `applyUrl` | _string_ | the url provided by the job board to apply for the job | ``                                                   |
-| `location` | _string_ | location of the job                                    | `Atlanta, GA`                                        |
-| `postDateText` | _string_ | when the job was posted as a string from the job site  | `5 days ago`                                         |
+| key            | type     | description                                            | example                                                      |
+| -------------- | -------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| `sourceId`     | _string_ | the id from the source job board                       | `indeed:jobPosting:11be61a5bcbb4d00`                         |
+| `company`      | _string_ | the company of the job posting                         | `Google`                                                     |
+| `title`        | _string_ | the title or position                                  | `Software Engineer I`                                        |
+| `url`          | _string_ | the url for the job posting on the job board site      | `https://www.indeed.com/viewjob?jk=11be61a5bcbb4d00`         |
+| `applyUrl`     | _string_ | the url provided by the job board to apply for the job | `https://www.indeed.com/viewjob?jk=11be61a5bcbb4d00&from=vj` |
+| `location`     | _string_ | location of the job                                    | `Atlanta, GA`                                                |
+| `postDateText` | _string_ | when the job was posted as a string from the job site  | `5 days ago`                                                 |
 
 ## `JobScraper`
 
