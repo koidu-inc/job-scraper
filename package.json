@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --config jest.config.js",
-    "test:live": "jest --config jest.live.config.js",
-    "publish": "npm publish"
+    "test:live": "jest --config jest.live.config.js"
   },
   "dependencies": {
     "axios": "0.19.2",
