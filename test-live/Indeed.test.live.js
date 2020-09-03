@@ -3,10 +3,11 @@ const { Scraper } = require('../lib').site.Indeed;
 
 describe('Indeed live test', () => {
   test('it should be able to get job postings', async () => {
-    const results = await Scraper.searchJobs({ searchTerm: 'Node JS', location: 'Atlanta, GA', radius: 10 });
+    const jobs = await Scraper.searchJobs({ searchTerm: 'Node JS', location: 'Atlanta, GA', radius: 10 });
+    console.log('jobs', { jobs });
 
-    expect(results).toBeDefined();
-    expect(results[0]).toEqual({
+    expect(jobs).toBeDefined();
+    expect(jobs[0]).toEqual({
       sourceId: expect.any(String),
       company: expect.any(String),
       title: expect.any(String),
