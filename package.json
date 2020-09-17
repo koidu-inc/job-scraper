@@ -7,14 +7,24 @@
   "author": "Daniel R. Hayes <danielhayes5@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "\n# RUN SCRIPTS:": " ",
+    "\n# TEST SCRIPTS:": " ",
     "test": "jest --config jest.config.js",
-    "test:live": "jest --config jest.live.config.js"
+    "test:live": "jest --config jest.live.config.js",
+    "\n# BUILD SCRIPTS:": " ",
+    "\n# OTHER SCRIPTS:": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
   },
   "dependencies": {
     "axios": "0.19.2",
     "jsdom": "16.3.0"
   },
   "devDependencies": {
+    "husky": "4.3.0",
     "jest": "26.1.0"
   }
 }
