@@ -50,6 +50,7 @@ async function getJobs() {
     searchTerm: 'nodejs developer',
     location: 'atlanta, ga',
     radius: '10',
+    limit: 50, // indeed has a limit of 50
   });
   return jobs;
 }
